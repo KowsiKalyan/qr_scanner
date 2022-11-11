@@ -13,6 +13,7 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   String _scanBarcode = 'Unknown';
+  String _scanBarcode1 = 'Unknown';
   TextEditingController text = TextEditingController();
 
   @override
